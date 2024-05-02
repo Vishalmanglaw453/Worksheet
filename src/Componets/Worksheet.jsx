@@ -98,7 +98,7 @@ const Worksheet = () => {
                         Live-link-:
                         <a
                           target="blank"
-                          href="  https://the-firms.netlify.app/"
+                          href={data.livelink1}
                         >
                           {data.livelink1}
                         </a>
@@ -131,7 +131,7 @@ const Worksheet = () => {
                         Live-link-:
                         <a
                           target="blank"
-                          href="  https://the-firms.netlify.app/"
+                          href={data.livelink1}
                         >
                           {data.livelink1}
                         </a>
@@ -163,7 +163,7 @@ const Worksheet = () => {
                         Live-link-:
                         <a
                           target="blank"
-                          href="  https://the-firms.netlify.app/"
+                          href={data.livelink1}
                         >
                           {data.livelink1}
                         </a>
@@ -195,7 +195,7 @@ const Worksheet = () => {
                         Live-link-:
                         <a
                           target="blank"
-                          href="  https://the-firms.netlify.app/"
+                          href={data.livelink1}
                         >
                           {data.livelink1}
                         </a>
