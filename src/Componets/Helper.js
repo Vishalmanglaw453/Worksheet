@@ -8,7 +8,8 @@ import evergreen from "../assets/images/ever-green.png";
 import julian from "../assets/images/julian.png";
 import ftplane from '../assets/images/ft-plane.png'
 import hubrich from '../assets/images/hubrich.png'
-
+import shoes from '../assets/images/shoes.png'
+import email from '../assets/images/emailjs.png'
 import labs from "../assets/images/games.png";
 export const jan = [
   {
@@ -75,5 +76,30 @@ export const april = [
     gitlink1: "https://github.com/Vishalmanglaw453/Hubrich-1.git",
     livelink1: "https://hubrich-1-w5nv.vercel.app/",
   },
+
+  {
+    img: shoes,
+    gitlink1: "https://github.com/Vishalmanglaw453/shoes-task.git",
+    livelink1: "https://shoes-task-pink.vercel.app/",
+  },
+
+];
+export const may = [
+  {
+    img: email,
+    gitlink1: "https://github.com/Vishalmanglaw453/email-js.git",
+    livelink1: "https://email-js-zeta.vercel.app/",
+  },
+  // {
+  //   img: hubrich,
+  //   gitlink1: "https://github.com/Vishalmanglaw453/Hubrich-1.git",
+  //   livelink1: "https://hubrich-1-w5nv.vercel.app/",
+  // },
+
+  // {
+  //   img: shoes,
+  //   gitlink1: "https://github.com/Vishalmanglaw453/shoes-task.git",
+  //   livelink1: "https://shoes-task-pink.vercel.app/",
+  // },
 
 ];
