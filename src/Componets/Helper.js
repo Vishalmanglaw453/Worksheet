@@ -11,6 +11,9 @@ import hubrich from '../assets/images/hubrich.png'
 import shoes from '../assets/images/shoes.png'
 import email from '../assets/images/emailjs.png'
 import labs from "../assets/images/games.png";
+import abacus from "../assets/images/hero-img.png"
+import fitness from "../assets/images/iPadPro.webp"
+
 export const jan = [
   {
     img: thefirm,
@@ -90,16 +93,17 @@ export const may = [
     gitlink1: "https://github.com/Vishalmanglaw453/email-js.git",
     livelink1: "https://email-js-zeta.vercel.app/",
   },
-  // {
-  //   img: hubrich,
-  //   gitlink1: "https://github.com/Vishalmanglaw453/Hubrich-1.git",
-  //   livelink1: "https://hubrich-1-w5nv.vercel.app/",
-  // },
+  {
+    img: abacus,
+    gitlink1: "https://github.com/Vishalmanglaw453/ABACUS.git",
+    livelink1: "https://abacus-gamma.vercel.app/",
+  },
 
-  // {
-  //   img: shoes,
-  //   gitlink1: "https://github.com/Vishalmanglaw453/shoes-task.git",
-  //   livelink1: "https://shoes-task-pink.vercel.app/",
-  // },
+  {
+    img: fitness,
+    gitlink1: "https://github.com/Vishalmanglaw453/Fitness.git",
+    livelink1: "https://fitness-sepia-six.vercel.app/",
+  },
 
 ];
+
