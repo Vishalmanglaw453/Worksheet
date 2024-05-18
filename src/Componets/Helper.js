@@ -106,4 +106,45 @@ export const may = [
   },
 
 ];
+export const Completedtsk = [
+  {
+    use:"Eamil js",
+    gitlink1: "https://github.com/Vishalmanglaw453/email-js.git",
+    livelink1: "https://email-js-zeta.vercel.app/",
+  },
+  {
+    use:"Swiper ",
+    gitlink1: "https://github.com/Vishalmanglaw453/Hubrich-1.git",
+    livelink1: "https://hubrich-1-w5nv.vercel.app/",
+  },
+
+  {
+    use:"Use Recat-slider ",
+    gitlink1: "https://github.com/Vishalmanglaw453/248_labs.git",
+    livelink1: "https://248-labs-jgug.vercel.app/",
+  },
+
+  {
+    use:"Use nav-tabs with usestate ",
+    gitlink1: "https://github.com/Vishalmanglaw453/Worksheet.git",
+    livelink1: "https://worksheet-two.vercel.app/ ",
+  },
+  {
+    use:"Data print with map ",
+    gitlink1: "https://github.com/Vishalmanglaw453/Worksheet.git",
+    livelink1: "https://worksheet-two.vercel.app/ ",
+  },
+  {
+    use:"todo task input value add with usestate ",
+    gitlink1: "https://github.com/Vishalmanglaw453/todo-task.git",
+    livelink1: "https://todo-task-beige.vercel.app/",
+  },
+  {
+    use:"using props for common button ",
+    gitlink1: "https://github.com/Vishalmanglaw453/Hubrich-1.git",
+    livelink1: "https://hubrich-1-w5nv.vercel.app/",
+  },
+
+  //  
+];
 

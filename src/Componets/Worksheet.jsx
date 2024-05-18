@@ -16,6 +16,7 @@ import { feb } from "./Helper";
 import { march } from "./Helper";
 import { april } from "./Helper";
 import { may } from "./Helper";
+import {Completedtsk} from "./Helper"
 
 const Worksheet = () => {
   const [ActiveKey, setActiveKey] = useState("nav1");
@@ -75,6 +76,7 @@ const Worksheet = () => {
                 April
               </button>
               <button
+
                 className={`${
                   ActiveKey === "nav5"
                     ? " bg-black text-white "
@@ -83,6 +85,16 @@ const Worksheet = () => {
                 onClick={() => setActiveKey("nav5")}
               >
                 may
+              </button>
+              <button
+                className={`${
+                  ActiveKey === "nav6"
+                    ? " bg-black text-white "
+                    : "bg-transparent"
+                }    nav_btn `}
+                onClick={() => setActiveKey("nav6")}
+              >
+              Completed task
               </button>
             </div>
           </div>
@@ -214,6 +226,35 @@ const Worksheet = () => {
                   <div className="row ">
                     <div className="col-sm-4 mt-3">
                       <img className=" w-100" src={data.img} alt="" />
+                    </div>
+                    <div className="col-sm-8 mt-4">
+                      <h2 className=" mb-0">
+                        Github-link -:
+                        <a target="blank" href={data.gitlink1}>
+                          {data.gitlink1}
+                        </a>
+                      </h2>
+                      <p className=" mb-0 pt-3">
+                        Live-link-:
+                        <a target="blank" href={data.livelink1}>
+                          {data.livelink1}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </>
+              ))}
+            </div>
+            <div
+              className={`${
+                ActiveKey === "nav6" ? "  d-block    " : "  d_none"
+              }  `}
+            >
+              {Completedtsk.map((data, index) => (
+                <>
+                  <div className="row ">
+                    <div className="col-sm-4 mt-3">
+                      <h2>{data.use}</h2>
                     </div>
                     <div className="col-sm-8 mt-4">
                       <h2 className=" mb-0">
