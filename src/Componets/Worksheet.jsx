@@ -225,7 +225,7 @@ const Worksheet = () => {
                 <>
                   <div className="row ">
                     <div className="col-sm-4 mt-3">
-                      <img className=" w-100" src={data.img} alt="" />
+                      <img className=" h-100 w-100" src={data.img} alt=" allimg" />
                     </div>
                     <div className="col-sm-8 mt-4">
                       <h2 className=" mb-0">
@@ -259,7 +259,7 @@ const Worksheet = () => {
                     <div className="col-sm-8 mt-4">
                       <h2 className=" mb-0">
                         Github-link -:
-                        <a target="blank" href={data.gitlink1}>
+                        <a  target="blank" href={data.gitlink1}>
                           {data.gitlink1}
                         </a>
                       </h2>

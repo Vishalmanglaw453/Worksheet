@@ -13,6 +13,8 @@ import email from '../assets/images/emailjs.png'
 import labs from "../assets/images/games.png";
 import abacus from "../assets/images/hero-img.png"
 import fitness from "../assets/images/iPadPro.webp"
+import oilapp from "../assets/images/Hero-bg-img.webp"
+import gxxx from "../assets/images/gxxx.png"
 
 export const jan = [
   {
@@ -100,9 +102,20 @@ export const may = [
   },
 
   {
+
     img: fitness,
     gitlink1: "https://github.com/Vishalmanglaw453/Fitness.git",
     livelink1: "https://fitness-sepia-six.vercel.app/",
+  },
+  {
+    img: oilapp,
+    gitlink1: "https://github.com/Vishalmanglaw453/Atlantic.git",
+    livelink1: "https://atlantic-sage.vercel.app/",
+  },
+  {
+    img: gxxx,
+    gitlink1: "https://github.com/Vishalmanglaw453/Gxxx-Gxxxxxx.git",
+    livelink1: "https://gxxx-gxxxxxx.vercel.app/",
   },
 
 ];
@@ -145,6 +158,5 @@ export const Completedtsk = [
     livelink1: "https://hubrich-1-w5nv.vercel.app/",
   },
 
-  //  
 ];
 
