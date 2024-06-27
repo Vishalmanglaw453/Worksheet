@@ -17,6 +17,7 @@ import { march } from "./Helper";
 import { april } from "./Helper";
 import { may } from "./Helper";
 import {Completedtsk} from "./Helper"
+import {june} from "./Helper"
 
 const Worksheet = () => {
   const [ActiveKey, setActiveKey] = useState("nav1");
@@ -40,7 +41,7 @@ const Worksheet = () => {
                   ActiveKey === "nav1"
                     ? "bg-black text-white "
                     : "bg-transparent"
-                }  nav_btn  `}
+                }  nav_btn text-uppercase  `}
                 onClick={() => setActiveKey("nav1")}
               >
                 January
@@ -50,7 +51,7 @@ const Worksheet = () => {
                   ActiveKey === "nav2"
                     ? " bg-black text-white "
                     : "bg-transparent"
-                }    nav_btn `}
+                }    nav_btn text-uppercase `}
                 onClick={() => setActiveKey("nav2")}
               >
                 february
@@ -60,7 +61,7 @@ const Worksheet = () => {
                   ActiveKey === "nav3"
                     ? " bg-black text-white "
                     : "bg-transparent"
-                }    nav_btn `}
+                }    nav_btn text-uppercase `}
                 onClick={() => setActiveKey("nav3")}
               >
                 March
@@ -70,7 +71,7 @@ const Worksheet = () => {
                   ActiveKey === "nav4"
                     ? " bg-black text-white "
                     : "bg-transparent"
-                }    nav_btn `}
+                }    nav_btn text-uppercase `}
                 onClick={() => setActiveKey("nav4")}
               >
                 April
@@ -81,21 +82,32 @@ const Worksheet = () => {
                   ActiveKey === "nav5"
                     ? " bg-black text-white "
                     : "bg-transparent"
-                }    nav_btn `}
+                }    nav_btn text-uppercase `}
                 onClick={() => setActiveKey("nav5")}
               >
                 may
               </button>
               <button
                 className={`${
+                  ActiveKey === "nav7"
+                    ? " bg-black text-white "
+                    : "bg-transparent"
+                }    nav_btn text-uppercase `}
+                onClick={() => setActiveKey("nav7")}
+              >
+            june
+              </button>
+              <button
+                className={`${
                   ActiveKey === "nav6"
                     ? " bg-black text-white "
                     : "bg-transparent"
-                }    nav_btn `}
+                }    nav_btn text-uppercase `}
                 onClick={() => setActiveKey("nav6")}
               >
               Completed task
               </button>
+            
             </div>
           </div>
           <div className="col-lg-9 col-12">
@@ -247,6 +259,36 @@ const Worksheet = () => {
             </div>
             <div
               className={`${
+                ActiveKey === "nav7" ? "  d-block    " : "  d_none"
+              }  `}
+            >
+              {june.map((data, index) => (
+                <>
+                  <div className="row ">
+                    <div className="col-sm-4 mt-3">
+                      <img className=" h-100 bg-black w-100" src={data.img} alt=" allimg" />
+                    </div>
+                    <div className="col-sm-8 mt-4">
+                      <h2 className=" mb-0">
+                        Github-link -:
+                        <a target="blank" href={data.gitlink1}>
+                          {data.gitlink1}
+                        </a>
+                      </h2>
+                      <p className=" mb-0 pt-3">
+                        Live-link-:
+                        <a target="blank" href={data.livelink1}>
+                          {data.livelink1}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </>
+              ))}
+            </div>
+            
+            <div
+              className={`${
                 ActiveKey === "nav6" ? "  d-block    " : "  d_none"
               }  `}
             >
@@ -274,6 +316,8 @@ const Worksheet = () => {
                 </>
               ))}
             </div>
+           
+
           </div>
         </div>
       </div>

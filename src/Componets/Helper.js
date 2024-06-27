@@ -15,7 +15,8 @@ import abacus from "../assets/images/hero-img.png"
 import fitness from "../assets/images/iPadPro.webp"
 import oilapp from "../assets/images/Hero-bg-img.webp"
 import gxxx from "../assets/images/gxxx.png"
-
+import clair from "../assets/images/hero_big_img.webp"
+import Blast from "../assets/images/Screenshot (3).png"
 export const jan = [
   {
     img: thefirm,
@@ -117,6 +118,20 @@ export const may = [
     gitlink1: "https://github.com/Vishalmanglaw453/Gxxx-Gxxxxxx.git",
     livelink1: "https://gxxx-gxxxxxx.vercel.app/",
   },
+
+];
+export const june = [
+  {
+    img: Blast,
+    gitlink1: "https://github.com/Vishalmanglaw453/blast-pro.git",
+    livelink1: "https://ice-blast-xi.vercel.app/",
+  },
+  {
+    img: clair,
+    gitlink1: "https://github.com/Vishalmanglaw453/CLAIR.git",
+    livelink1: "https://clair-vishal-manglaws-projects.vercel.app/",
+  },
+  
 
 ];
 export const Completedtsk = [
