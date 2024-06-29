@@ -172,6 +172,11 @@ export const Completedtsk = [
     gitlink1: "https://github.com/Vishalmanglaw453/Hubrich-1.git",
     livelink1: "https://hubrich-1-w5nv.vercel.app/",
   },
+  {
+    use:" abi fatch , email js and many task",
+    gitlink1: "https://github.com/Vishalmanglaw453/React-task.git",
+    livelink1: "not valid",
+  },
 
 ];
 
