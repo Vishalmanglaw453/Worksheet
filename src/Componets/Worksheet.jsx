@@ -18,6 +18,7 @@ import { april } from "./Helper";
 import { may } from "./Helper";
 import {Completedtsk} from "./Helper"
 import {june} from "./Helper"
+import {july} from "./Helper"
 
 const Worksheet = () => {
   const [ActiveKey, setActiveKey] = useState("nav1");
@@ -96,6 +97,16 @@ const Worksheet = () => {
                 onClick={() => setActiveKey("nav7")}
               >
             june
+              </button>
+              <button
+                className={`${
+                  ActiveKey === "nav8"
+                    ? " bg-black text-white "
+                    : "bg-transparent"
+                }    nav_btn text-uppercase `}
+                onClick={() => setActiveKey("nav8")}
+              >
+            july
               </button>
               <button
                 className={`${
@@ -259,10 +270,10 @@ const Worksheet = () => {
             </div>
             <div
               className={`${
-                ActiveKey === "nav7" ? "  d-block    " : "  d_none"
+                ActiveKey === "nav8" ? "  d-block    " : "  d_none"
               }  `}
             >
-              {june.map((data, index) => (
+              {july.map((data, index) => (
                 <>
                   <div className="row ">
                     <div className="col-sm-4 mt-3">
@@ -290,6 +301,35 @@ const Worksheet = () => {
             <div
               className={`${
                 ActiveKey === "nav6" ? "  d-block    " : "  d_none"
+              }  `}
+            >
+              {Completedtsk.map((data, index) => (
+                <>
+                  <div className="row ">
+                    <div className="col-sm-4 mt-3">
+                      <h2>{data.use}</h2>
+                    </div>
+                    <div className="col-sm-8 mt-4">
+                      <h2 className=" mb-0">
+                        Github-link -:
+                        <a  target="blank" href={data.gitlink1}>
+                          {data.gitlink1}
+                        </a>
+                      </h2>
+                      <p className=" mb-0 pt-3">
+                        Live-link-:
+                        <a target="blank" href={data.livelink1}>
+                          {data.livelink1}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </>
+              ))}
+            </div>
+            <div
+              className={`${
+                ActiveKey === "nav7" ? "  d-block    " : "  d_none"
               }  `}
             >
               {Completedtsk.map((data, index) => (
