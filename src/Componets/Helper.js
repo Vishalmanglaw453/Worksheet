@@ -21,6 +21,7 @@ import temlate_1 from "../assets/images/image1.png";
 import template2 from "../assets/images/image2.png";
 import hourtask from "../assets/images/image3.png";
 import bada_uni from "../assets/images/image4.png";
+import gilded from "../assets/images/image5.png"
 
 export const jan = [
   {
@@ -155,6 +156,12 @@ export const july = [
     gitlink1: "https://github.com/Vishalmanglaw453/Breda-university.git",
     livelink1: "https://breda-university-three.vercel.app/",
   },
+  {
+    img: gilded,
+    gitlink1: "https://github.com/Vishalmanglaw453/Gilded-games.git",
+    livelink1: "https://gilded-games-livid.vercel.app/",
+  },
+  
 ];
 export const Completedtsk = [
   {
