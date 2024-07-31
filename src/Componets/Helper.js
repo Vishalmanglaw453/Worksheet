@@ -171,7 +171,7 @@ export const july = [
   {
     img: bedrock ,
     gitlink1: "https://github.com/INDERJEETBHADU/bedrock.git",
-    livelink1: "",
+    livelink1: "https://bed-rocks-react.web.app/",
   },
   
 ];
