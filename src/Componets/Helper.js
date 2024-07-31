@@ -22,6 +22,8 @@ import template2 from "../assets/images/image2.png";
 import hourtask from "../assets/images/image3.png";
 import bada_uni from "../assets/images/image4.png";
 import gilded from "../assets/images/image5.png"
+import parms from "../assets/images/parms.png";
+import bedrock from "../assets/images/bedrocks.webp"
 
 export const jan = [
   {
@@ -160,6 +162,16 @@ export const july = [
     img: gilded,
     gitlink1: "https://github.com/Vishalmanglaw453/Gilded-games.git",
     livelink1: "https://gilded-games-livid.vercel.app/",
+  },
+  {
+    img: parms ,
+    gitlink1: "https://github.com/Vishalmanglaw453/React-task.git",
+    livelink1: "https://react-task-ecru-six.vercel.app/",
+  },
+  {
+    img: bedrock ,
+    gitlink1: "https://github.com/INDERJEETBHADU/bedrock.git",
+    livelink1: "",
   },
   
 ];
