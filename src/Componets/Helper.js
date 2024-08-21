@@ -24,7 +24,9 @@ import bada_uni from "../assets/images/image4.png";
 import gilded from "../assets/images/image5.png"
 import parms from "../assets/images/parms.png";
 import bedrock from "../assets/images/bedrocks.webp"
-
+import edward from "../assets/images/connections-made-easy.5c3474f317c5cac82d43.webp"
+import gshp from "../assets/images/image10.png"
+import template from "../assets/images/temlapte.png"
 export const jan = [
   {
     img: thefirm,
@@ -174,6 +176,24 @@ export const july = [
     livelink1: "https://bed-rocks-react.web.app/",
   },
   
+];
+export const august = [
+  {
+    img: edward,
+    gitlink1: "https://github.com/INDERJEETBHADU/EDWARD.git",
+    livelink1: "https://connections-made-easy-html.web.app/",
+  },
+  {
+    img: gshp,
+    gitlink1: "https://github.com/Vishalmanglaw453/gsap-practice.git",
+    livelink1: "https://gshp.vercel.app/",
+  },
+  {
+    img: template,
+    gitlink1: "https://github.com/Vishalmanglaw453/Ringside.git",
+    livelink1: "https://ringside-lovat.vercel.app/",
+  },
+
 ];
 export const Completedtsk = [
   {
